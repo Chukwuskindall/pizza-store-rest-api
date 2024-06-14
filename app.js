@@ -14,7 +14,7 @@ var app = express();
 app.use(cors());
 
 mongoose
-  .connect("mongodb://0.0.0.0:27017/Pizza-factory")
+  .connect("mongodb://0.0.0.0:27017/Pizzafactory")
   .then((db) => console.log("db connected"))
   .catch((err) => console.log(err));
 
